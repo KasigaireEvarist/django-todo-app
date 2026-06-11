@@ -86,3 +86,6 @@ def update_task(request, task_id):
         return redirect('/')
 
     return render(request, 'todo/update_task.html', {'task': task})
+
+def task_list(request):
+    ...
